@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html><body>
+    <video  id="video"  width="500" height="500" controls>
+        <source src=" https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+      </video>
+      <h3> Click button for play video</h3>
+<button id="playbtn" onclick="playvideo()"> Play</button>
+<button id="pausebtn" onclick="pausevideo()"> Pause</button>
+<script>
+    var music = document.getElementById("video");
+    function playvideo(){
+        music.play();
+     }
+     function pausevideo(){
+        music.pause();
+     }
+</script>
+<style>
+
+</style>
+</body>
+</html>
